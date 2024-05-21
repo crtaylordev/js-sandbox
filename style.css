@@ -1,12 +1,15 @@
 html, 
 body {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #171717;
     margin: 2rem;
+    overflow: hidden;
+    background-color: darkslateblue;
+    color: #d8d8d8;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body,
-main {
+main,
+section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,30 +20,29 @@ main {
 }
 
 .section {
-    width: 60%;
+    min-width: 300px;
     padding: 2rem;
-    margin: 2rem auto;
-    border-radius: 12px;
-    background-color: deepskyblue;
+    margin: 1rem auto;
+    background-color: #171717;
     text-align: center;
 }
 
-.button {
+a {
     padding: 1rem;
-    border-radius: 5px;
-    background-color: #444343;
-    color: aliceblue;
+    font-size: 1.25rem;
     font-weight: 700;
-}
-
-.button:hover {
-    cursor: pointer;
-    background-color: goldenrod;
-    color: #171717;
-}
-
-.wonder-section {
     font-style: italic;
+    text-decoration-line: none;
+    text-transform: lowercase;
+}
+
+.nav-link {
+    color: coral;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration-line: underline;
 }
 
 /* Media Queries */

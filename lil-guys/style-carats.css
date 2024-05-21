@@ -35,3 +35,17 @@ h1 {
     display: none;
     overflow: hidden;
 }
+
+.footer {
+    text-align: center;
+}
+
+.home-link {
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration-line: none;
+}
+
+.home-link:hover {
+    text-decoration-line: underline;
+}
