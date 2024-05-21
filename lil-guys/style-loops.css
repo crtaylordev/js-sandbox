@@ -16,17 +16,6 @@ main {
     width: 100%;
 }
 
-.home-link {
-    cursor: pointer;
-    font-weight: 700;
-    color: aliceblue;
-    text-decoration-line: none;
-}
-
-.home-link:hover {
-    text-decoration-line: underline;
-}
-
 .section {
     width: 60%;
     padding: 2rem;
@@ -53,6 +42,30 @@ main {
 .wonder-section {
     font-style: italic;
 }
+
+.simon-section {
+    background-color: olive;
+    margin-bottom: 1rem;
+}
+
+.img-section {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    background-color: #171717;
+}
+
+.home-link {
+    cursor: pointer;
+    font-weight: 700;
+    color: aliceblue;
+    text-decoration-line: none;
+}
+
+.home-link:hover {
+    text-decoration-line: underline;
+}
+
 
 /* Media Queries */
 

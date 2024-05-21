@@ -35,7 +35,8 @@ giveAlrights = () => {
         console.log('Alright');
         console.log('   Alright');
     }
-    console.log('Alright, now LADIES!');    
+    alert('Alright, now LADIES! (Yeah?)')
+    console.log('Alright, now LADIES! (Yeah?)');    
 }
 
 singHeyYaFellas = () => {
