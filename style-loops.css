@@ -1,37 +1,43 @@
-html, body {
+html, 
+body,
+main {
     width: 100%;
     font-family: 'Courier New', Courier, monospace;
+    background-color: #171717;
 }
 
-h1 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+body,
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    justify-content: space-around;
 }
 
 .section {
-    width: 90%;
+    min-width: 30rem;
+    max-width: 70%;
+    padding: 2rem;
+    border-radius: 12px;
     margin: 1rem auto;
+    background-color: deepskyblue;
+    text-align: center;
 }
 
-.faq-collapse {
-    width: 100%;
-    background-color: seagreen;
-    color: white;
-    font-weight: 700;
+.button {
     padding: 1rem;
+    border-radius: 5px;
+    background-color: #444343;
+    color: aliceblue;
+    font-weight: 700;
+}
+
+.button:hover {
     cursor: pointer;
-    text-align: left;
-    border: none;
-    margin: 0.25rem 0;
-}
-
-.active, .faq-collapse:hover {
-    background-color: orange;
-}
-
-.faq-content {
-    padding: 0 1rem;
-    background-color: rgb(184, 223, 223);
-    display: none;
-    overflow: hidden;
+    background-color: goldenrod;
+    color: #171717;
 }
